@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Qatar Health Navigator
+
+A mobile-first responsive web application designed to provide simple, reliable health navigation and education for Qatar residents.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript (strict mode)
+- **Styling**: TailwindCSS with custom design tokens
+- **Icons**: Heroicons (outline style)
+
+## Project Structure
+
+```
+qatar-health-navigator/
+├── app/                    # Next.js App Router pages
+├── components/
+│   ├── ui/                # Reusable UI components
+│   ├── layout/            # Layout components (Header, BottomNav)
+│   └── shared/            # Shared components (LanguageSwitcher)
+├── contexts/              # React contexts (LanguageContext)
+├── lib/                   # Utility functions and data loading
+├── types/                 # TypeScript type definitions
+├── public/
+│   ├── data/             # Static JSON data files
+│   └── audio/            # Audio narration files
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
-
+Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Build for production:
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Design System
 
-## Learn More
+### Color Palette
 
-To learn more about Next.js, take a look at the following resources:
+**Primary Colors:**
+- Cream White: `#FAF9F4`
+- Lake Blue: `#4F8FA6`
+- Deep Forest Green: `#2F4A39`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Secondary Colors:**
+- Soft Sand: `#E7E0D1`
+- Natural Wood: `#B89163`
+- Plant Green: `#5F9462`
+- Mountain Mist Blue: `#88B7CB`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**System Colors:**
+- Care Red: `#B84A4A`
+- Warm Amber: `#D7A44A`
+- Clinical Green: `#4C7E5D`
 
-## Deploy on Vercel
+### Glassmorphism
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The app uses glassmorphism effects with the lakeside background image:
+- `.glass` - Standard glass effect
+- `.glass-dark` - Dark variant for Lake Blue sections

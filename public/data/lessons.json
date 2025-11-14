@@ -1,0 +1,38 @@
+[
+  {
+    "id": "when-to-visit-phcc",
+    "title_en": "When to Visit Primary Health Care Centers (PHCC)",
+    "title_ar": "متى تزور مراكز الرعاية الصحية الأولية",
+    "body_en": "Primary Health Care Centers (PHCCs) are your first point of contact for healthcare in Qatar. Visit PHCCs for:\n\n• Routine checkups and preventive care\n• Management of chronic conditions like diabetes and hypertension\n• Minor illnesses such as colds, flu, and infections\n• Vaccinations for children and adults\n• Women's health services including prenatal care\n• Dental services\n• Laboratory tests and prescriptions\n• Health education and counseling\n\nPHCCs operate with extended hours and provide comprehensive family medicine services. Register with your nearest PHCC using your Health Card. Most services are free for Qatari citizens and residents with valid health cards.",
+    "body_ar": "مراكز الرعاية الصحية الأولية هي نقطة الاتصال الأولى للرعاية الصحية في قطر. قم بزيارة المراكز الصحية من أجل:\n\n• الفحوصات الروتينية والرعاية الوقائية\n• إدارة الحالات المزمنة مثل السكري وارتفاع ضغط الدم\n• الأمراض البسيطة مثل نزلات البرد والإنفلونزا والالتهابات\n• التطعيمات للأطفال والبالغين\n• خدمات صحة المرأة بما في ذلك رعاية ما قبل الولادة\n• خدمات الأسنان\n• الفحوصات المخبرية والوصفات الطبية\n• التثقيف والاستشارات الصحية\n\nتعمل المراكز الصحية بساعات عمل ممتدة وتقدم خدمات طب الأسرة الشاملة. سجل في أقرب مركز صحي باستخدام بطاقتك الصحية. معظم الخدمات مجانية للمواطنين القطريين والمقيمين الذين لديهم بطاقات صحية صالحة.",
+    "icon": "building-office-2",
+    "audio_file": "/audio/when-to-visit-phcc.mp3"
+  },
+  {
+    "id": "when-to-visit-urgent-care",
+    "title_en": "When to Visit Urgent Care Centers",
+    "title_ar": "متى تزور مراكز الرعاية العاجلة",
+    "body_en": "Urgent Care Centers provide walk-in services for conditions that need prompt attention but are not life-threatening. Visit Urgent Care for:\n\n• High fever (38-39°C) that doesn't respond to home treatment\n• Minor injuries like sprains, strains, or small cuts\n• Moderate pain or discomfort\n• Infections requiring antibiotics\n• Persistent vomiting or diarrhea with mild dehydration\n• Minor burns or wounds\n• Allergic reactions (non-severe)\n• Conditions needing care outside PHCC hours\n\nUrgent Care Centers have extended hours (typically 8 AM to midnight) and provide X-ray, laboratory, and minor procedure services. No appointment needed - walk-in patients are seen based on severity. Bring your Health Card and ID.",
+    "body_ar": "توفر مراكز الرعاية العاجلة خدمات بدون موعد للحالات التي تحتاج إلى اهتمام فوري ولكنها ليست مهددة للحياة. قم بزيارة الرعاية العاجلة من أجل:\n\n• حمى عالية (38-39 درجة مئوية) لا تستجيب للعلاج المنزلي\n• إصابات بسيطة مثل الالتواءات أو الإجهادات أو الجروح الصغيرة\n• ألم أو انزعاج متوسط\n• التهابات تتطلب مضادات حيوية\n• قيء أو إسهال مستمر مع جفاف خفيف\n• حروق أو جروح بسيطة\n• ردود فعل تحسسية (غير شديدة)\n• حالات تحتاج رعاية خارج ساعات عمل المراكز الصحية\n\nتعمل مراكز الرعاية العاجلة بساعات ممتدة (عادة من 8 صباحًا حتى منتصف الليل) وتوفر خدمات الأشعة السينية والمختبر والإجراءات البسيطة. لا حاجة لموعد - يتم استقبال المرضى حسب شدة الحالة. أحضر بطاقتك الصحية وهويتك.",
+    "icon": "clock",
+    "audio_file": "/audio/when-to-visit-urgent-care.mp3"
+  },
+  {
+    "id": "when-to-visit-emergency",
+    "title_en": "When to Visit the Emergency Room",
+    "title_ar": "متى تزور غرفة الطوارئ",
+    "body_en": "Emergency Rooms are for life-threatening conditions requiring immediate medical attention. Go to ER or call 999 for:\n\n• Severe chest pain or pressure (possible heart attack)\n• Difficulty breathing or shortness of breath\n• Severe bleeding that won't stop\n• Loss of consciousness or fainting\n• Severe head injury or trauma\n• Stroke symptoms (facial drooping, arm weakness, speech difficulty)\n• Severe allergic reactions with swelling or breathing difficulty\n• Poisoning or overdose\n• Severe burns\n• Seizures\n• High fever (above 39°C) with confusion or stiff neck\n\nEmergency Departments operate 24/7 at Hamad Medical Corporation hospitals. In true emergencies, call 999 for ambulance. Patients are prioritized by severity - life-threatening cases are seen first.",
+    "body_ar": "غرف الطوارئ مخصصة للحالات المهددة للحياة التي تتطلب عناية طبية فورية. اذهب إلى الطوارئ أو اتصل بـ 999 من أجل:\n\n• ألم أو ضغط شديد في الصدر (نوبة قلبية محتملة)\n• صعوبة في التنفس أو ضيق في التنفس\n• نزيف شديد لا يتوقف\n• فقدان الوعي أو الإغماء\n• إصابة شديدة في الرأس أو صدمة\n• أعراض السكتة الدماغية (تدلي الوجه، ضعف الذراع، صعوبة الكلام)\n• ردود فعل تحسسية شديدة مع تورم أو صعوبة في التنفس\n• تسمم أو جرعة زائدة\n• حروق شديدة\n• نوبات\n• حمى عالية (فوق 39 درجة مئوية) مع ارتباك أو تصلب الرقبة\n\nتعمل أقسام الطوارئ على مدار الساعة في مستشفيات مؤسسة حمد الطبية. في حالات الطوارئ الحقيقية، اتصل بـ 999 للإسعاف. يتم إعطاء الأولوية للمرضى حسب الشدة - الحالات المهددة للحياة تُرى أولاً.",
+    "icon": "exclamation-triangle",
+    "audio_file": "/audio/when-to-visit-emergency.mp3"
+  },
+  {
+    "id": "child-vaccination-schedule",
+    "title_en": "Child Vaccination Schedule in Qatar",
+    "title_ar": "جدول تطعيمات الأطفال في قطر",
+    "body_en": "Qatar provides free vaccinations for all children through PHCCs. The national immunization schedule includes:\n\n**Birth:** BCG, Hepatitis B (1st dose), Polio (OPV0)\n\n**2 Months:** DTP, Hib, Hepatitis B (2nd dose), Polio, Pneumococcal, Rotavirus\n\n**4 Months:** DTP, Hib, Polio, Pneumococcal, Rotavirus\n\n**6 Months:** DTP, Hib, Hepatitis B (3rd dose), Polio, Pneumococcal\n\n**12 Months:** MMR (1st dose), Pneumococcal, Meningococcal\n\n**18 Months:** DTP, Hib, Polio, Varicella, Hepatitis A\n\n**4-6 Years:** DTP, Polio, MMR (2nd dose)\n\nRegister your child at your nearest PHCC. Bring your child's birth certificate and your Health Card. Vaccination records are maintained electronically. Keep appointments - timely vaccination protects your child from serious diseases.",
+    "body_ar": "توفر قطر تطعيمات مجانية لجميع الأطفال من خلال المراكز الصحية. يشمل جدول التحصين الوطني:\n\n**عند الولادة:** BCG، التهاب الكبد B (الجرعة الأولى)، شلل الأطفال (OPV0)\n\n**شهرين:** DTP، Hib، التهاب الكبد B (الجرعة الثانية)، شلل الأطفال، المكورات الرئوية، الفيروس العجلي\n\n**4 أشهر:** DTP، Hib، شلل الأطفال، المكورات الرئوية، الفيروس العجلي\n\n**6 أشهر:** DTP، Hib، التهاب الكبد B (الجرعة الثالثة)، شلل الأطفال، المكورات الرئوية\n\n**12 شهرًا:** MMR (الجرعة الأولى)، المكورات الرئوية، المكورات السحائية\n\n**18 شهرًا:** DTP، Hib، شلل الأطفال، الحماق، التهاب الكبد A\n\n**4-6 سنوات:** DTP، شلل الأطفال، MMR (الجرعة الثانية)\n\nسجل طفلك في أقرب مركز صحي. أحضر شهادة ميلاد طفلك وبطاقتك الصحية. يتم الاحتفاظ بسجلات التطعيم إلكترونيًا. حافظ على المواعيد - التطعيم في الوقت المناسب يحمي طفلك من الأمراض الخطيرة.",
+    "icon": "shield-check",
+    "audio_file": "/audio/child-vaccination-schedule.mp3"
+  }
+]

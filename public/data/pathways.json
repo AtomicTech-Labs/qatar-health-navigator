@@ -1,0 +1,92 @@
+[
+  {
+    "id": "diabetes-management",
+    "title_en": "Diabetes Management Pathway",
+    "title_ar": "مسار إدارة مرض السكري",
+    "steps": [
+      {
+        "icon": "clipboard-document-check",
+        "title_en": "Initial Diagnosis & Assessment",
+        "title_ar": "التشخيص والتقييم الأولي",
+        "body_en": "Visit your PHCC for blood sugar testing and diagnosis. Your doctor will assess your condition, review your medical history, and determine your diabetes type and severity.",
+        "body_ar": "قم بزيارة المركز الصحي لإجراء فحص سكر الدم والتشخيص. سيقوم طبيبك بتقييم حالتك ومراجعة تاريخك الطبي وتحديد نوع وشدة مرض السكري."
+      },
+      {
+        "icon": "beaker",
+        "title_en": "Laboratory Tests & Monitoring",
+        "title_ar": "الفحوصات المخبرية والمراقبة",
+        "body_en": "Complete HbA1c, lipid profile, kidney function tests, and other required lab work. Regular monitoring every 3-6 months helps track your progress and adjust treatment.",
+        "body_ar": "أكمل فحص السكر التراكمي وملف الدهون ووظائف الكلى والفحوصات المخبرية الأخرى المطلوبة. المراقبة المنتظمة كل 3-6 أشهر تساعد في تتبع تقدمك وتعديل العلاج."
+      },
+      {
+        "icon": "academic-cap",
+        "title_en": "Diabetes Education Program",
+        "title_ar": "برنامج التثقيف حول السكري",
+        "body_en": "Attend diabetes education sessions at your PHCC. Learn about blood sugar monitoring, diet management, exercise, medication adherence, and recognizing complications.",
+        "body_ar": "احضر جلسات التثقيف حول السكري في مركزك الصحي. تعلم عن مراقبة سكر الدم وإدارة النظام الغذائي والتمارين والالتزام بالأدوية والتعرف على المضاعفات."
+      },
+      {
+        "icon": "heart",
+        "title_en": "Lifestyle Modifications",
+        "title_ar": "تعديلات نمط الحياة",
+        "body_en": "Work with a dietitian to create a meal plan. Start regular physical activity (30 minutes daily). Maintain healthy weight, quit smoking, and manage stress.",
+        "body_ar": "اعمل مع أخصائي تغذية لإنشاء خطة وجبات. ابدأ نشاطًا بدنيًا منتظمًا (30 دقيقة يوميًا). حافظ على وزن صحي وأقلع عن التدخين وتحكم في التوتر."
+      },
+      {
+        "icon": "calendar",
+        "title_en": "Regular Follow-up Care",
+        "title_ar": "المتابعة المنتظمة",
+        "body_en": "Schedule regular appointments every 3 months with your doctor. Monitor blood sugar at home daily. Get annual eye exams, foot checks, and kidney function tests.",
+        "body_ar": "حدد مواعيد منتظمة كل 3 أشهر مع طبيبك. راقب سكر الدم في المنزل يوميًا. احصل على فحوصات سنوية للعين والقدم ووظائف الكلى."
+      }
+    ],
+    "what_to_expect_en": "With proper management, most people with diabetes live healthy, active lives. You'll need lifelong monitoring and treatment, but modern medications and lifestyle changes can effectively control blood sugar levels. Your healthcare team will support you throughout your journey.",
+    "what_to_expect_ar": "مع الإدارة السليمة، يعيش معظم الأشخاص المصابين بالسكري حياة صحية ونشطة. ستحتاج إلى مراقبة وعلاج مدى الحياة، لكن الأدوية الحديثة وتغييرات نمط الحياة يمكن أن تتحكم بفعالية في مستويات سكر الدم. سيدعمك فريق الرعاية الصحية طوال رحلتك.",
+    "audio_file": "/audio/diabetes-management.mp3"
+  },
+  {
+    "id": "hypertension-management",
+    "title_en": "Hypertension Management Pathway",
+    "title_ar": "مسار إدارة ارتفاع ضغط الدم",
+    "steps": [
+      {
+        "icon": "clipboard-document-check",
+        "title_en": "Blood Pressure Screening",
+        "title_ar": "فحص ضغط الدم",
+        "body_en": "Visit your PHCC for blood pressure measurement. Multiple readings over several visits confirm hypertension diagnosis. Your doctor will assess cardiovascular risk factors.",
+        "body_ar": "قم بزيارة المركز الصحي لقياس ضغط الدم. قراءات متعددة على مدى عدة زيارات تؤكد تشخيص ارتفاع ضغط الدم. سيقوم طبيبك بتقييم عوامل خطر القلب والأوعية الدموية."
+      },
+      {
+        "icon": "beaker",
+        "title_en": "Baseline Investigations",
+        "title_ar": "الفحوصات الأساسية",
+        "body_en": "Complete blood tests, kidney function, lipid profile, ECG, and urine analysis. These tests identify underlying causes and assess organ damage from high blood pressure.",
+        "body_ar": "أكمل فحوصات الدم ووظائف الكلى وملف الدهون وتخطيط القلب وتحليل البول. تحدد هذه الفحوصات الأسباب الكامنة وتقيم تلف الأعضاء من ارتفاع ضغط الدم."
+      },
+      {
+        "icon": "scale",
+        "title_en": "Lifestyle Changes",
+        "title_ar": "تغييرات نمط الحياة",
+        "body_en": "Reduce salt intake to less than 5g daily. Maintain healthy weight through diet and exercise. Limit alcohol, quit smoking, and manage stress through relaxation techniques.",
+        "body_ar": "قلل تناول الملح إلى أقل من 5 جرام يوميًا. حافظ على وزن صحي من خلال النظام الغذائي والتمارين. قلل الكحول وأقلع عن التدخين وتحكم في التوتر من خلال تقنيات الاسترخاء."
+      },
+      {
+        "icon": "beaker",
+        "title_en": "Medication Management",
+        "title_ar": "إدارة الأدوية",
+        "body_en": "Take prescribed blood pressure medications daily as directed. Never stop medications without consulting your doctor. Report any side effects promptly.",
+        "body_ar": "تناول أدوية ضغط الدم الموصوفة يوميًا حسب التوجيهات. لا توقف الأدوية أبدًا دون استشارة طبيبك. أبلغ عن أي آثار جانبية على الفور."
+      },
+      {
+        "icon": "chart-bar",
+        "title_en": "Home Monitoring & Follow-up",
+        "title_ar": "المراقبة المنزلية والمتابعة",
+        "body_en": "Monitor blood pressure at home regularly. Keep a log of readings. Visit your doctor every 3-6 months for medication adjustment and complication screening.",
+        "body_ar": "راقب ضغط الدم في المنزل بانتظام. احتفظ بسجل للقراءات. قم بزيارة طبيبك كل 3-6 أشهر لتعديل الأدوية وفحص المضاعفات."
+      }
+    ],
+    "what_to_expect_en": "Hypertension is a manageable condition with proper treatment. Most people achieve good blood pressure control with medication and lifestyle changes. Regular monitoring prevents complications like heart disease, stroke, and kidney damage.",
+    "what_to_expect_ar": "ارتفاع ضغط الدم حالة يمكن إدارتها بالعلاج المناسب. يحقق معظم الناس تحكمًا جيدًا في ضغط الدم بالأدوية وتغييرات نمط الحياة. المراقبة المنتظمة تمنع المضاعفات مثل أمراض القلب والسكتة الدماغية وتلف الكلى.",
+    "audio_file": "/audio/hypertension-management.mp3"
+  }
+]

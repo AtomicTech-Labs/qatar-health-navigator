@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fever",
+    "name_en": "Fever",
+    "name_ar": "الحمى",
+    "green_en": "Temperature 37.5-38°C (99.5-100.4°F) with no other concerning symptoms. Rest at home, drink plenty of fluids, and take paracetamol as needed. Monitor temperature regularly.",
+    "green_ar": "درجة الحرارة 37.5-38 درجة مئوية بدون أعراض مقلقة أخرى. استرح في المنزل واشرب الكثير من السوائل وتناول الباراسيتامول حسب الحاجة. راقب درجة الحرارة بانتظام.",
+    "yellow_en": "Temperature 38-39°C (100.4-102.2°F) lasting more than 3 days, or fever with persistent cough, body aches, or mild dehydration. Visit your PHCC or urgent care center for evaluation.",
+    "yellow_ar": "درجة الحرارة 38-39 درجة مئوية تستمر أكثر من 3 أيام، أو حمى مع سعال مستمر أو آلام في الجسم أو جفاف خفيف. قم بزيارة المركز الصحي أو مركز الرعاية العاجلة للتقييم.",
+    "red_en": "Temperature above 39°C (102.2°F), fever with severe headache and stiff neck, difficulty breathing, chest pain, confusion, seizures, or fever in infants under 3 months. Go to emergency room immediately or call 999.",
+    "red_ar": "درجة الحرارة أعلى من 39 درجة مئوية، حمى مع صداع شديد وتصلب الرقبة، صعوبة في التنفس، ألم في الصدر، ارتباك، نوبات، أو حمى عند الرضع أقل من 3 أشهر. اذهب إلى غرفة الطوارئ فورًا أو اتصل بـ 999.",
+    "audio_file": "/audio/fever.mp3"
+  },
+  {
+    "id": "cough",
+    "name_en": "Cough",
+    "name_ar": "السعال",
+    "green_en": "Mild dry or productive cough for less than 1 week with no fever or breathing difficulty. Rest, stay hydrated, use honey (for adults), and avoid irritants. Cough should improve within a week.",
+    "green_ar": "سعال جاف أو منتج خفيف لأقل من أسبوع بدون حمى أو صعوبة في التنفس. استرح وابق رطبًا واستخدم العسل (للبالغين) وتجنب المهيجات. يجب أن يتحسن السعال في غضون أسبوع.",
+    "yellow_en": "Persistent cough lasting more than 2 weeks, cough with thick colored mucus, mild chest discomfort, or cough interfering with sleep. Visit your PHCC for examination and possible treatment.",
+    "yellow_ar": "سعال مستمر يستمر أكثر من أسبوعين، سعال مع مخاط سميك ملون، انزعاج خفيف في الصدر، أو سعال يتعارض مع النوم. قم بزيارة المركز الصحي للفحص والعلاج المحتمل.",
+    "red_en": "Severe cough with difficulty breathing, coughing up blood, severe chest pain, high fever above 39°C, bluish lips or face, or cough in infant under 3 months. Go to emergency room immediately or call 999.",
+    "red_ar": "سعال شديد مع صعوبة في التنفس، سعال دم، ألم شديد في الصدر، حمى عالية فوق 39 درجة مئوية، شفاه أو وجه مزرق، أو سعال عند رضيع أقل من 3 أشهر. اذهب إلى غرفة الطوارئ فورًا أو اتصل بـ 999.",
+    "audio_file": "/audio/cough.mp3"
+  },
+  {
+    "id": "chest-discomfort",
+    "name_en": "Chest Discomfort",
+    "name_ar": "انزعاج الصدر",
+    "green_en": "Mild chest discomfort related to muscle strain, coughing, or indigestion. Pain improves with rest or antacids. No shortness of breath or radiation to arm/jaw. Monitor and rest.",
+    "green_ar": "انزعاج خفيف في الصدر يتعلق بإجهاد العضلات أو السعال أو عسر الهضم. يتحسن الألم مع الراحة أو مضادات الحموضة. لا ضيق في التنفس أو انتشار إلى الذراع/الفك. راقب واسترح.",
+    "yellow_en": "Chest discomfort lasting more than a few minutes, discomfort with exertion that improves with rest, or persistent indigestion-like pain. Visit urgent care or PHCC for evaluation within 24 hours.",
+    "yellow_ar": "انزعاج في الصدر يستمر أكثر من بضع دقائق، انزعاج مع المجهود يتحسن مع الراحة، أو ألم مستمر يشبه عسر الهضم. قم بزيارة الرعاية العاجلة أو المركز الصحي للتقييم خلال 24 ساعة.",
+    "red_en": "Severe chest pain or pressure, pain radiating to arm/jaw/back, chest pain with shortness of breath, sweating, nausea, or dizziness. This could be a heart attack. Call 999 immediately and chew aspirin if available.",
+    "red_ar": "ألم أو ضغط شديد في الصدر، ألم ينتشر إلى الذراع/الفك/الظهر، ألم في الصدر مع ضيق في التنفس أو تعرق أو غثيان أو دوار. قد تكون هذه نوبة قلبية. اتصل بـ 999 فورًا وامضغ الأسبرين إذا كان متاحًا.",
+    "audio_file": "/audio/chest-discomfort.mp3"
+  }
+]

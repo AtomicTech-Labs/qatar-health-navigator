@@ -1,0 +1,65 @@
+[
+  {
+    "id": "al-wakra-health-center",
+    "name": "Al Wakra Health Center",
+    "category": "PHCC",
+    "short_description": "Primary healthcare center providing comprehensive family medicine services",
+    "services": [
+      "General Practice",
+      "Family Medicine",
+      "Pediatrics",
+      "Women's Health",
+      "Dental Services",
+      "Laboratory Services",
+      "Pharmacy",
+      "Vaccination Services"
+    ],
+    "timings": "Saturday to Thursday: 7:00 AM - 10:00 PM, Friday: 7:00 AM - 4:00 PM",
+    "when_to_visit": "Visit for routine checkups, minor illnesses, chronic disease management, vaccinations, and preventive care. Ideal for non-urgent medical needs and family health services.",
+    "when_not_to_visit": "Do not visit for severe chest pain, difficulty breathing, severe injuries, or life-threatening emergencies. These require emergency room care.",
+    "google_maps_url": "https://maps.google.com/?q=Al+Wakra+Health+Center+Qatar",
+    "audio_file": "/audio/al-wakra-health-center.mp3"
+  },
+  {
+    "id": "hamad-general-hospital-er",
+    "name": "Hamad General Hospital - Emergency Department",
+    "category": "Emergency",
+    "short_description": "24/7 emergency department for urgent and life-threatening conditions",
+    "services": [
+      "Emergency Medicine",
+      "Trauma Care",
+      "Critical Care",
+      "Cardiac Emergency",
+      "Stroke Care",
+      "Pediatric Emergency",
+      "Surgical Emergency",
+      "Radiology Services"
+    ],
+    "timings": "Open 24/7",
+    "when_to_visit": "Visit for severe chest pain, difficulty breathing, severe bleeding, loss of consciousness, severe injuries, stroke symptoms, or any life-threatening emergency.",
+    "when_not_to_visit": "Do not visit for minor illnesses, routine checkups, prescription refills, or non-urgent conditions. Use PHCC or urgent care for these needs.",
+    "google_maps_url": "https://maps.google.com/?q=Hamad+General+Hospital+Emergency+Qatar",
+    "audio_file": "/audio/hamad-general-hospital-er.mp3"
+  },
+  {
+    "id": "al-sadd-urgent-care",
+    "name": "Al Sadd Urgent Care Center",
+    "category": "Urgent Care",
+    "short_description": "Walk-in urgent care for non-life-threatening conditions requiring prompt attention",
+    "services": [
+      "Urgent Care Medicine",
+      "Minor Injuries",
+      "Fever Management",
+      "Infections Treatment",
+      "X-Ray Services",
+      "Minor Procedures",
+      "Laboratory Tests",
+      "Prescription Services"
+    ],
+    "timings": "Daily: 8:00 AM - 12:00 AM (Midnight)",
+    "when_to_visit": "Visit for high fever, minor injuries, sprains, infections, moderate pain, or conditions needing prompt care but not life-threatening.",
+    "when_not_to_visit": "Do not visit for life-threatening emergencies like severe chest pain, difficulty breathing, or major trauma. Go to emergency room instead.",
+    "google_maps_url": "https://maps.google.com/?q=Al+Sadd+Urgent+Care+Center+Qatar",
+    "audio_file": "/audio/al-sadd-urgent-care.mp3"
+  }
+]

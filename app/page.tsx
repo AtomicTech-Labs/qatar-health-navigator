@@ -1,101 +1,111 @@
-import Image from "next/image";
+'use client';
+
+import Link from 'next/link';
+import { useLanguage } from '@/contexts/LanguageContext';
+import Card from '@/components/ui/Card';
+import {
+  BuildingOffice2Icon,
+  MapIcon,
+  HeartIcon,
+  AcademicCapIcon,
+  SparklesIcon,
+  ExclamationTriangleIcon,
+} from '@heroicons/react/24/outline';
+
+interface NavigationCard {
+  titleKey: string;
+  descriptionKey: string;
+  href: string;
+  icon: React.ComponentType<{ className?: string }>;
+}
+
+const navigationCards: NavigationCard[] = [
+  {
+    titleKey: 'home.services',
+    descriptionKey: 'home.services.desc',
+    href: '/directory',
+    icon: BuildingOffice2Icon,
+  },
+  {
+    titleKey: 'home.pathways',
+    descriptionKey: 'home.pathways.desc',
+    href: '/pathways',
+    icon: MapIcon,
+  },
+  {
+    titleKey: 'home.symptoms',
+    descriptionKey: 'home.symptoms.desc',
+    href: '/symptoms',
+    icon: HeartIcon,
+  },
+  {
+    titleKey: 'home.lessons',
+    descriptionKey: 'home.lessons.desc',
+    href: '/lessons',
+    icon: AcademicCapIcon,
+  },
+  {
+    titleKey: 'home.support',
+    descriptionKey: 'home.support.desc',
+    href: '/support',
+    icon: SparklesIcon,
+  },
+  {
+    titleKey: 'home.emergency',
+    descriptionKey: 'home.emergency.desc',
+    href: '/emergency',
+    icon: ExclamationTriangleIcon,
+  },
+];
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const { t, dir } = useLanguage();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  return (
+    <div className="container mx-auto px-4 py-6 sm:py-8 max-w-6xl">
+      {/* Hero Section */}
+      <section className="mb-8 sm:mb-10 text-center animate-fade-in">
+        <h1 className="text-heading-1 sm:text-[36px] font-bold text-deep-forest mb-4 bg-gradient-to-r from-deep-forest via-lake-blue to-deep-forest bg-clip-text text-transparent">
+          {t('home.welcome')}
+        </h1>
+        <p className="text-body text-deep-forest/80 max-w-2xl mx-auto leading-relaxed">
+          {t('home.description')}
+        </p>
+      </section>
+
+      {/* Navigation Cards Grid */}
+      <section 
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5"
+        aria-label="Main navigation sections"
+      >
+        {navigationCards.map((card, index) => {
+          const Icon = card.icon;
+          return (
+            <Link 
+              key={card.href} 
+              href={card.href}
+              className="focus:outline-none focus:ring-2 focus:ring-lake-blue focus:ring-offset-2 rounded-3xl group"
+              style={{ animationDelay: `${index * 50}ms` }}
+            >
+              <Card variant="glass" className="h-full">
+                <div className={`flex flex-col items-center text-center gap-4 py-3 ${dir === 'rtl' ? 'rtl' : 'ltr'}`}>
+                  <div className="w-16 h-16 flex items-center justify-center rounded-2xl bg-gradient-to-br from-lake-blue/20 to-lake-blue/5 group-hover:from-lake-blue/30 group-hover:to-lake-blue/10 transition-all duration-300 shadow-inner" aria-hidden="true">
+                    <Icon className="w-10 h-10 text-lake-blue group-hover:scale-110 transition-transform duration-300" />
+                  </div>
+                  <div>
+                    <h2 className="text-heading-3 font-bold text-deep-forest mb-2 group-hover:text-lake-blue transition-colors duration-300">
+                      {t(card.titleKey)}
+                    </h2>
+                    <p className="text-small text-deep-forest/70 leading-relaxed">
+                      {t(card.descriptionKey)}
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          );
+        })}
+      </section>
     </div>
   );
 }
