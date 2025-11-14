@@ -25,8 +25,8 @@ export default function DirectoryListClient({ services }: DirectoryListClientPro
   const categories: CategoryFilter[] = ['All', 'PHCC', 'HMC', 'Urgent Care', 'Emergency', 'Private'];
 
   return (
-    <div className="min-h-screen pb-24 pt-4">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="min-h-screen pb-24 pt-6 px-4">
+      <div className="content-panel max-w-4xl mx-auto px-4 sm:px-8 py-6 sm:py-8 animate-fade-in">
         {/* Title */}
         <h1 className="text-heading-1 sm:text-[32px] font-semibold text-deep-forest mb-4 sm:mb-6">
           {t('directory.title')}
@@ -51,7 +51,7 @@ export default function DirectoryListClient({ services }: DirectoryListClientPro
                 focus:outline-none focus:ring-2 focus:ring-lake-blue focus:ring-offset-2
                 ${activeFilter === category
                   ? 'bg-lake-blue text-white shadow-md'
-                  : 'bg-white/35 backdrop-blur-[18px] border border-white/28 text-deep-forest hover:bg-white/50'
+                  : 'bg-white/35 border border-white/28 text-deep-forest hover:bg-white/50'
                 }
               `}
             >

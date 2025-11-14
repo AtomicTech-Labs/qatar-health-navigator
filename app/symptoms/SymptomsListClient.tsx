@@ -38,8 +38,8 @@ export default function SymptomsListClient({ symptoms }: SymptomsListClientProps
   const { language, t } = useLanguage();
 
   return (
-    <div className="min-h-screen pb-24 pt-4">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="min-h-screen pb-24 pt-6 px-4">
+      <div className="content-panel max-w-4xl mx-auto px-4 sm:px-8 py-6 sm:py-8 animate-fade-in">
         {/* Title */}
         <h1 className="text-heading-1 sm:text-[32px] font-semibold text-deep-forest mb-4 sm:mb-6">
           {t('symptoms.title')}

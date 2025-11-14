@@ -40,8 +40,8 @@ export default function PathwayDetailClient({ pathway }: PathwayDetailClientProp
   const whatToExpect = language === 'ar' ? pathway.what_to_expect_ar : pathway.what_to_expect_en;
 
   return (
-    <div className="min-h-screen bg-cream-white pb-24 pt-4">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="min-h-screen pb-24 pt-6 px-4">
+      <div className="content-panel max-w-4xl mx-auto px-4 sm:px-8 py-6 sm:py-8 animate-fade-in">
         {/* Title */}
         <h1 className="text-heading-1 font-semibold text-deep-forest mb-6">
           {title}

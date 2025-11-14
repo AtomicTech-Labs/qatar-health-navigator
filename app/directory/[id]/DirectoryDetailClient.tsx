@@ -23,8 +23,8 @@ export default function DirectoryDetailClient({ service }: DirectoryDetailClient
   const isRTL = dir === 'rtl';
 
   return (
-    <div className="min-h-screen bg-cream-white pb-24 pt-4">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="min-h-screen pb-24 pt-6 px-4">
+      <div className="content-panel max-w-4xl mx-auto px-4 sm:px-8 py-6 sm:py-8 animate-fade-in">
         {/* Header */}
         <div className="mb-6">
           <div className="mb-2">

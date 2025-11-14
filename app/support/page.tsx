@@ -108,8 +108,8 @@ export default function SupportPage() {
   const content = supportContent[language];
 
   return (
-    <div className="min-h-screen bg-cream-white pb-24 pt-4 px-4">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen pb-24 pt-6 px-4">
+      <div className="content-panel max-w-4xl mx-auto px-4 sm:px-8 py-6 sm:py-8 animate-fade-in">
         {/* Page Title */}
         <h1 className="text-heading-1 font-semibold text-deep-forest mb-6">
           {t('support.title')}
